@@ -34,7 +34,7 @@ test('error displays on invalid entry', async () => {
     },
   )
 
-  //fireEvent.click(getByText(/submit/i))
+  fireEvent.click(getByText(/submit/i))
 
   //getByText(/name is required/i)
 
